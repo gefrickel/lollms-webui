@@ -1,4 +1,5 @@
-FROM python:3.10
+# FROM python:3.10
+FROM ubi8/python-311
 
 WORKDIR /srv
 COPY ./requirements.txt .
